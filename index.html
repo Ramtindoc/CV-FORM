@@ -11,14 +11,22 @@
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/Codilo.css">
-    <!-- <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png"> -->
+    <link rel="shortcut icon" href="assets/images/logo2.jpg" type="image/png">
 </head>
 
 <body class="vazir">
     <!--=============== HEADER ===============-->
     <header class="header" id="header">
         <nav class="nav container">
-            <h1 href="#" class="nav__logo">رامتین</h1>
+
+            <div class="home__social">
+                <a href="#" target="_blank" class="home__social-link">
+                    <i class='bx bxl-linkedin'></i>
+                </a>
+                <a href="#" target="_blank" class="home__social-link">
+                    <i class='bx bxl-github'></i>
+                </a>
+            </div>
 
             <div class="nav__menu">
                 <ul class="nav__list">
@@ -66,73 +74,60 @@
         <section class="home section" id="home">
             <div class="home__container container grid">
                 <div class="home__data">
-                    <span class="home__greeting">سلام من</span>
                     <h1 class="home__name">رامتین حسن زاده هستم</h1>
-                    <h3 class="home__education">توسعه‌دهنده بک اند</h3>
+                    <h3 class="home__education">توسعه‌دهنده</h3>
 
                     <div class="home__button">
-                        <a download="" class="button button--ghost">
+                        <a href="assets/file-cv/رامتین_حسن زاده-fa-1.pdf" class="button button--ghost">
                             دانلود رزومه
                         </a>
 
                         <a href="#about" class="button">درباره</a>
                     </div>
-                </div>
+                    <!-- </div>
 
                 <div class="home__handle">
-                    <img src="assets/images/profile.png" alt="" class="home__img">
-                </div>
-
-                <div class="home__social">
-                    <a href="#" target="_blank" class="home__social-link">
-                        <i class='bx bxl-linkedin'></i>
-                    </a>
-                    <a href="#" target="_blank" class="home__social-link">
-                        <i class='bx bxl-github'></i>
-                    </a>
-                    <a href="#" target="_blank" class="home__social-link">
-                        <i class='bx bxl-dribbble'></i>
+                    <img src="assets/images/imageMe3.png" alt="" class="home__img">
+                </div> -->
+                    <a href="#about" class="home__scroll">
+                        <i class='bx bx-mouse home__scroll-icon'></i>
+                        <span class="home__scroll-name">اسکرول کنید</span>
                     </a>
                 </div>
-
-                <a href="#about" class="home__scroll">
-                    <i class='bx bx-mouse home__scroll-icon'></i>
-                    <span class="home__scroll-name">اسکرول کنید</span>
-                </a>
-            </div>
         </section>
 
         <!--=============== ABOUT ===============-->
         <section class="about section" id="about">
+
             <span class="section__subtitle">معرفی من</span>
             <h2 class="section__title">درباره من</h2>
 
             <div class="about__container container grid">
-                <img src="assets/images/profile.png" alt="" class="about__img">
+                <img src="assets/images/imageMe.png" alt="" class="about__img">
 
                 <div class="about__data">
                     <div class="about__info">
                         <div class="about__box">
                             <i class='bx bx-award about__icon'></i>
                             <h3 class="about__title">تجربه</h3>
-                            <span class="about__subtitle">۸ سال سابقه کار</span>
+                            <span class="about__subtitle">1 سال سابقه کار</span>
                         </div>
                         <div class="about__box">
                             <i class='bx bx-briefcase-alt about__icon'></i>
                             <h3 class="about__title">پروژه‌های تکمیل شده</h3>
-                            <span class="about__subtitle">۴۸</span>
+                            <span class="about__subtitle">N</span>
                         </div>
-                        <div class="about__box">
+                        <!-- <div class="about__box">
                             <i class='bx bx-support about__icon'></i>
                             <h3 class="about__title">پشتیبانی</h3>
                             <span class="about__subtitle">۳ سال</span>
-                        </div>
+                        </div> -->
                     </div>
 
                     <p class="about__description">
-                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                        چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی
-                        مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                        - ارتباط صحیح با دیگر اعضای تیم بر سر پروژه
+                        - پایبند به نظم و ترتیب در محیط کار
+                        - علاقمند به آموزش و رشد مهارت های تخصصی در حوزه ی کاری خود
                     </p>
 
                     <a href="#contact" class="button about__button-contact">ارتباط با من</a>
@@ -147,7 +142,9 @@
 
             <div class="skills__container container grid">
                 <div class="skills__content">
-                    <h3 class="skills__title">توسعه‌دهنده فرانت‌اند</h3>
+                    <!-- frontend -->
+
+                    <h3 class="skills__title">فرانت‌اند</h3>
 
                     <div class="skills__box">
                         <div class="skills__group">
@@ -156,7 +153,7 @@
 
                                 <div>
                                     <h3 class="skills__name">اچ‌تی‌ام‌ال</h3>
-                                    <span class="skills__level">پیشرفته</span>
+                                    <span class="skills__level">متوسط</span>
                                 </div>
                             </div>
 
@@ -165,7 +162,7 @@
 
                                 <div>
                                     <h3 class="skills__name">سی‌اس‌اس</h3>
-                                    <span class="skills__level">پیشرفته</span>
+                                    <span class="skills__level">متوسط</span>
                                 </div>
                             </div>
 
@@ -173,37 +170,8 @@
                                 <i class='bx bxs-badge-check'></i>
 
                                 <div>
-                                    <h3 class="skills__name">جاوا اسکریپت</h3>
-                                    <span class="skills__level">پیشرفته</span>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="skills__group">
-                            <div class="skills__data">
-                                <i class='bx bxs-badge-check'></i>
-
-                                <div>
-                                    <h3 class="skills__name">بوت‌استرپ</h3>
-                                    <span class="skills__level">مبتدی</span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <i class='bx bxs-badge-check'></i>
-
-                                <div>
-                                    <h3 class="skills__name">گیت</h3>
-                                    <span class="skills__level">پیشرفته</span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <i class='bx bxs-badge-check'></i>
-
-                                <div>
-                                    <h3 class="skills__name">ری‌اکت</h3>
-                                    <span class="skills__level">پیشرفته</span>
+                                    <h3 class="skills__name">جاوااسکریپت</h3>
+                                    <span class="skills__level">متوسط</span>
                                 </div>
                             </div>
 
@@ -212,7 +180,9 @@
                 </div>
 
                 <div class="skills__content">
-                    <h3 class="skills__title">توسعه‌دهنده بک‌اند</h3>
+
+                    <!-- backend -->
+                    <h3 class="skills__title">بک‌اند</h3>
 
                     <div class="skills__box">
                         <div class="skills__group">
@@ -220,7 +190,7 @@
                                 <i class='bx bxs-badge-check'></i>
 
                                 <div>
-                                    <h3 class="skills__name">NodeJs</h3>
+                                    <h3 class="skills__name">نود جی اس</h3>
                                     <span class="skills__level">مبتدی</span>
                                 </div>
                             </div>
@@ -229,54 +199,23 @@
                                 <i class='bx bxs-badge-check'></i>
 
                                 <div>
-                                    <h3 class="skills__name">Javascript</h3>
+                                    <h3 class="skills__name">جاوااسکریپت</h3>
                                     <span class="skills__level">متوسط</span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <i class='bx bxs-badge-check'></i>
-
-                                <div>
-                                    <h3 class="skills__name">mySQL</h3>
-                                    <span class="skills__level">مبتدی</span>
                                 </div>
                             </div>
 
                         </div>
                         <div class="skills__group">
-                            <div class="skills__data">
-                                <i class='bx bxs-badge-check'></i>
-
-                                <div>
-                                    <h3 class="skills__name">Github</h3>
-                                    <span class="skills__level">مبتدی</span>
-                                </div>
-                            </div>
 
                             <div class="skills__data">
-                                <i class='bx bxs-badge-check'></i>
 
-                                <div>
-                                    <h3 class="skills__name">HTML-CSS</h3>
-                                    <span class="skills__level">متوسط</span>
-                                </div>
-                            </div>
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check'></i>
 
-                            <div class="skills__data">
-                                <i class='bx bxs-badge-check'></i>
-
-                                <div>
-                                    <h3 class="skills__name">Rest api</h3>
-                                    <span class="skills__level">مبتدی</span>
-                                </div>
-                            </div>
-                            <div class="skills__data">
-                                <i class='bx bxs-badge-check'></i>
-
-                                <div>
-                                    <h3 class="skills__name">Express</h3>
-                                    <span class="skills__level">مبتدی</span>
+                                    <div>
+                                        <h3 class="skills__name">RestApi</h3>
+                                        <span class="skills__level">مبتدی</span>
+                                    </div>
                                 </div>
                             </div>
 
@@ -293,7 +232,7 @@
             <div class="services__container container grid">
                 <div class="services__card">
                     <div class="serv">
-                        <h3 class="services__title">طراحی <br> سه‌بعدی</h3>
+                        <h3 class="services__title">دیتابیس</h3>
 
                         <span class="services__button">
                             بیشتر <i class='bx bx-left-arrow services__icon'></i>
@@ -305,42 +244,22 @@
                         <div class="services__modal-content">
                             <i class='bx bx-x services__modal-close'></i>
 
-                            <h3 class="services__modal-title">طراحی سه‌بعدی</h3>
+                            <h3 class="services__modal-title">Databace</h3>
 
                             <p class="services__modal-description">
-                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
-                                است
+
                             </p>
 
                             <ul class="services__modal-list">
+
                                 <li class="services__modal-item">
                                     <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        لورم ایپسوم متن ساختگی با تولید سادگی </p>
+                                    <p class="services__modal-info">MongoDB</p>
                                 </li>
 
                                 <li class="services__modal-item">
                                     <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        لورم ایپسوم متن ساختگی با تولید سادگی </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        لورم ایپسوم متن ساختگی با تولید سادگی </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        لورم ایپسوم متن ساختگی با تولید سادگی </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        لورم ایپسوم متن ساختگی با تولید سادگی </p>
+                                    <p class="services__modal-info">MySQL</p>
                                 </li>
                             </ul>
                         </div>
@@ -348,7 +267,7 @@
                 </div>
 
                 <div class="services__card">
-                    <h3 class="services__title">طراحی <br> گرافیکی</h3>
+                    <h3 class="services__title">فریم ورک</h3>
 
                     <span class="services__button">
                         بیشتر <i class='bx bx-left-arrow services__icon'></i>
@@ -358,44 +277,22 @@
                         <div class="services__modal-content">
                             <i class='bx bx-x services__modal-close'></i>
 
-                            <h3 class="services__modal-title">طراحی گرافیکی</h3>
+                            <h3 class="services__modal-title">FramWork</h3>
 
                             <p class="services__modal-description">
-                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
-                                است
+
                             </p>
 
                             <ul class="services__modal-list">
+
                                 <li class="services__modal-item">
                                     <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        لورم ایپسوم متن ساختگی با تولید سادگی </p>
+                                    <p class="services__modal-info">Express</p>
                                 </li>
 
                                 <li class="services__modal-item">
                                     <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        لورم ایپسوم متن ساختگی با تولید سادگی </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        لورم ایپسوم متن ساختگی با تولید سادگی </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        لورم ایپسوم متن ساختگی با تولید سادگی
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        لورم ایپسوم متن ساختگی با تولید سادگی
-                                    </p>
+                                    <p class="services__modal-info">NodeJS</p>
                                 </li>
                             </ul>
                         </div>
@@ -403,7 +300,7 @@
                 </div>
 
                 <div class="services__card">
-                    <h3 class="services__title">طراحی <br> بصری</h3>
+                    <h3 class="services__title">مهارت های نرم</h3>
 
                     <span class="services__button">
                         بیشتر <i class='bx bx-left-arrow services__icon'></i>
@@ -413,47 +310,20 @@
                         <div class="services__modal-content">
                             <i class='bx bx-x services__modal-close'></i>
 
-                            <h3 class="services__modal-title">طراحی بصری</h3>
+                            <h3 class="services__modal-title"> مهارت های نرم</h3>
 
-                            <p class="services__modal-description">
-                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
-                                است
-                            </p>
+                            <p class="services__modal-description"></p>
 
                             <ul class="services__modal-list">
+
                                 <li class="services__modal-item">
                                     <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        لورم ایپسوم متن ساختگی با تولید سادگی
-                                    </p>
+                                    <p class="services__modal-info"></p>
                                 </li>
 
                                 <li class="services__modal-item">
                                     <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        لورم ایپسوم متن ساختگی با تولید سادگی
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        لورم ایپسوم متن ساختگی با تولید سادگی
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        لورم ایپسوم متن ساختگی با تولید سادگی
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        لورم ایپسوم متن ساختگی با تولید سادگی
-                                    </p>
+                                    <p class="services__modal-info"></p>
                                 </li>
                             </ul>
                         </div>
@@ -466,19 +336,18 @@
         <section class="work section" id="work">
             <span class="section__subtitle">نمونه کارهای من</span>
             <h2 class="section__title">پروژه‌های اخیر</h2>
-
             <div class="work__filters">
                 <span class="work__item active-work" data-filter='all'>همه</span>
-                <span class=" work__item" data-filter='.web'>وب</span>
-                <span class=" work__item" data-filter='.movil'>موبایل</span>
-                <span class=" work__item" data-filter='.design'>طراحی</span>
+                <span class=" work__item" data-filter='.movil'>فرانت اند</span>
+                <span class=" work__item" data-filter='.web'>بک اند</span>
+                <!-- <span class=" work__item" data-filter='.design'>طراحی</span> -->
             </div>
 
             <div class="work__container container grid">
                 <div class="work__card mix web">
-                    <img src="assets/images/work1.jpg" alt="" class="work__img">
+                    <!-- <img src="assets/images/myProject-sample.jpg" alt="" class="work__img"> -->
 
-                    <h3 class="work__title">طراحی وب</h3>
+                    <h3 class="work__title">🥕Node-farm🥑</h3>
 
                     <a href="#" class="work__button">
                         نمایش <i class='bx bx-left-arrow work__icon'></i>
@@ -486,26 +355,26 @@
                 </div>
 
                 <div class="work__card mix movil">
-                    <img src="assets/images/work2.jpg" alt="" class="work__img">
+                    <!-- <img src="assets/images/myProject-sample2.jpg" alt="" class="work__img"> -->
 
-                    <h3 class="work__title">طراحی اپ</h3>
-
-                    <a href="#" class="work__button">
-                        نمایش <i class='bx bx-left-arrow work__icon'></i>
-                    </a>
-                </div>
-
-                <div class="work__card mix design">
-                    <img src="assets/images/work3.jpg" alt="" class="work__img">
-
-                    <h3 class="work__title">طراحی رابط کاربری</h3>
+                    <h3 class="work__title">✍️Blogs-web✍️</h3>
 
                     <a href="#" class="work__button">
                         نمایش <i class='bx bx-left-arrow work__icon'></i>
                     </a>
                 </div>
 
-                <div class="work__card mix web">
+                <div class="work__card mix movil">
+                    <!-- <img src="assets/images/work3.jpg" alt="" class="work__img"> -->
+
+                    <h3 class="work__title">📋News-web📑</h3>
+
+                    <a href="#" class="work__button">
+                        نمایش <i class='bx bx-left-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <!-- <div class="work__card mix web">
                     <img src="assets/images/work4.jpg" alt="" class="work__img">
 
                     <h3 class="work__title">طراحی وب</h3>
@@ -523,7 +392,7 @@
                     <a href="#" class="work__button">
                         نمایش <i class='bx bx-left-arrow work__icon'></i>
                     </a>
-                </div>
+                </div> -->
 
             </div>
         </section>
@@ -540,8 +409,7 @@
 
                         <h3 class="testimonial__name">بابک قربانی</h3>
                         <p class="testimonial__description">
-                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                            چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
+
                         </p>
                     </div>
 
@@ -550,8 +418,7 @@
 
                         <h3 class="testimonial__name">مهسا مختاری</h3>
                         <p class="testimonial__description">
-                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                            چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
+
                         </p>
                     </div>
 
@@ -560,8 +427,7 @@
 
                         <h3 class="testimonial__name">دریا شیرکوند</h3>
                         <p class="testimonial__description">
-                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                            چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
+
                         </p>
                     </div>
                 </div>
@@ -646,8 +512,6 @@
     <!--=============== FOOTER ===============-->
     <footer class="footer">
         <div class="footer__container container">
-            <h1 class="footer__title">رامتین</h1>
-
             <ul class="footer__list">
 
                 <li class="footer__item">
@@ -697,8 +561,6 @@
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/mixitup.min.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/Codilo.js"></script>
-
 
 </body>
 
